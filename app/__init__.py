@@ -1,0 +1,1 @@
+"""VigiHealth Streamlit app package."""
