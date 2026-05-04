@@ -2,6 +2,11 @@
 
 import streamlit as st
 
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from app.tab_duckdb import render_duckdb
 from app.tab_eda import render_eda
 from app.tab_model_comparison import render_model_comparison
